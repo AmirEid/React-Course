@@ -1,0 +1,51 @@
+.MainBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    background-color: aliceblue;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.block1 {
+    width: 50%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.block1 > img {
+    width: 89%;
+    height: 250px;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.block2 > .subb1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.icon {
+    width: 10%;
+    margin-right: 10px;
+}
+
+.subtitle {
+    margin-right: 10px;
+}
+
+.paragraph {
+    margin-right: 15px;
+    max-width: 200px;
+    word-wrap: break-word;
+    white-space: normal;
+}

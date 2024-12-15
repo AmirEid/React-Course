@@ -1,0 +1,54 @@
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.input {
+    width: 500px;
+    height: 50px;
+    margin: 50px;
+    border: 1px solid #61DAFB;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 1000px;
+    flex-grow: 1;
+    font-family: Inter;
+}
+
+.button {
+    background-color: rgb(35, 35, 35);
+    margin: 50px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    font-family: Inter;
+}
+
+.button:hover {
+    background-color: #61DAFB;
+    color: black;
+    cursor: pointer;
+}
+
+.button::before {
+    content: "+";
+    margin-right: 10px;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: Inter;
+}
+
+.bullets::marker {
+    color: #61DAFB;
+}

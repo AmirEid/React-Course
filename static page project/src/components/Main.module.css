@@ -1,0 +1,39 @@
+body {
+    background-color: gray;
+}
+    
+.main::before {
+        margin: -40px 40px -30px 200px;
+        content: "";
+        position: absolute;
+        width: 80%;
+        height: 50%;
+        opacity: 0.1;
+        z-index: -1;
+        background-position: right -100px;
+        background-size: contain;
+        background-image: url('./src/assets/react.svg');
+        background-repeat: no-repeat;
+    }
+
+.main {
+    padding: 40px;
+    color: white;
+    font-family: Inter;
+}
+
+.main > h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.ul {
+    margin-top: 46px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.ul > li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
